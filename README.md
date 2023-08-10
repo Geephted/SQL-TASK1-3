@@ -52,6 +52,11 @@ By executing the same script, I effectively also established the " Health record
 
  ![](id&sub_constraint.jpg)
 
+6. I initiated the rename syntax column from one of the column in the student info table from Subject to Course. Below screenshot shows both the syntax used and the result
 
+    ![](renameee.jpg)
+   
+in order for me to drop the age column from the Student Info table i initiated the drop syntax. Below is the syntax used and the result of the execution 
 
+ ![](DROP.jpg)
 
