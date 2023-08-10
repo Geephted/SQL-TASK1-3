@@ -14,8 +14,8 @@ We were provided with 3 datasets to use for this tasks, these dataset consist of
 ### Task 1
 - Create a Database named “Students Record”
 - Create the following tables in the database create
-  Students Info  (Student ID, Gender, Name, Age, Subject)
-  Health records (Student ID, Blood Group, Height, Weight)
+  Students Info  (Student ID, Gender, Name, Age, Subject),
+  Health records (Student ID, Blood Group, Height, Weight),
   Performance (Student ID, Score, Grade)
 - The ID has to be unique
 - Where a student has no score, it should be ‘0’ by default
@@ -24,7 +24,25 @@ We were provided with 3 datasets to use for this tasks, these dataset consist of
     Change column name ‘’Subject” to ‘’Course” 
     Drop the “Age” column from the ‘Students Info’ table
 
-  To create a Database, i used the syntax CREATE DATABASE STUDENT_RECORD below is a screenshot 
+ 1. I started by initiating the creation of a new database named "STUDENT_RECORD" using SQL syntax. The screenshot displays both the SQL syntax I employed and the result after the execution of the syntax.
 
   ![](studentDatabase.jpg)
+
+2. I began by writing SQL script, I first utilized the CREATE TABLE statement to define the "StudentInfo" table's structure. Following the table's creation, I used the INSERT INTO statement to add fictional data into the table. Each VALUES tuple represents a separate student's information. 
+
+ ![](studentinfoV.jpg) 
+
+By executing the same script, I effectively also established the " Health records" table and populated it with hypothetical student data. The following screenshot displays both the SQL syntax I employed and the resultant table:
+
+ ![](healthrecordV.jpg) 
+
+ Still using the same syntax, I also created the "Perfoemance" table and populated it with hypothetical student data. The following screenshot displays both the SQL syntax I employed and the resultant table:
+
+  ![](PerformanceV.jpg) 
+
+3. To enforce uniqueness for the "StudentID" column in the "StudentInfo" table, I executed the following steps: First, I utilized the ALTER TABLE command to modify the "StudentInfo" table structure that I had initially created. Subsequently, I employed the ADD CONSTRAINT clause to impose a unique constraint on the "StudentID" column, ensuring that every student possesses a distinctive identifier within the table. Below is a screenshot of the syntax used and the command completed successful message.
+
+ ![](addunique.jpg)
+
+
 
