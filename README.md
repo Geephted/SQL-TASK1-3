@@ -56,7 +56,33 @@ By executing the same script, I effectively also established the " Health record
 
     ![](renameee.jpg)
    
-in order for me to drop the age column from the Student Info table i initiated the drop syntax. Below is the syntax used and the result of the execution 
+In order for me to drop the age column from the Student Info table i initiated the drop syntax. Below is the syntax used and the result of the execution 
 
  ![](DROP.jpg)
 
+### Task 2
+
+- Select the employee table and show the data where city is Mumbai and Delhi. 
+- Select the employee table where employee first name have both ‘a’ and ‘e’  in them. 
+- Subset the employee table to have employee with date of birth above 1990
+- Subset the salary table to show salaries less than 1 million and sort in an ascending order
+
+1. I retrieved records from Employee table where the city is either "Mumbai" or "Delhi." by using the logical operator OR along with the WHERE statement. Below is the screenshort of both the syntax i used and the result after executing the syntax.
+
+    ![](Mumbai&Delhi.jpg)
+
+2. To show the where employee first name have both 'A' and 'E' i used a logical operator, WHERE statement and the LIKE operator.
+
+ ![](A&E.jpg)
+
+ 3.To know the employees with date of bith above 1990, 
+
+  ![](1990.jpg)
+
+  4. To retrieve a subset of the salary table that includes only salaries less than 1 million and to arrange them in ascending order, i 
+ used the SELECT statement along with the WHERE clause to filter the data and the ORDER BY clause to sort the results. Here's the screenshort that shows the syntax and the result 
+
+       ![](1MASSENDING.jpg)
+
+### Task 3
+  
