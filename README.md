@@ -94,4 +94,8 @@ In order for me to drop the age column from the Student Info table i initiated t
 
    ![](Totall.jpg)
 
-2. 
+2. To discover the top 5 cities with the highest number of employees and then narrow down the results to cities having more than 15 employees, SQL's SELECT, GROUP BY, COUNT, FROM and HAVING were all utilized effectively. Syntax and result are shown below
+  
+ ![](GREATER15.jpg)
+
+
