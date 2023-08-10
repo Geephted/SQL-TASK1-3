@@ -44,5 +44,14 @@ By executing the same script, I effectively also established the " Health record
 
  ![](addunique.jpg)
 
+ 4. To ensure that a student has a default score of '0' when no score is specified, i updated the Performance table to set a default value for the score column. Additionally, i applied a constraint to enforce this default value. Here's the screenshot that show both the syntax and result table 
+
+ ![](0defult.jpg) 
+
+5.  I  encountered difficulties while trying to add constraints to prevent StudentID and Subject from taking null values. i resolved this by dropping the existing "StudentInfo" table and creating a new one with the desired constraints. i added the primary key constraint to the studentID column and not null constraints to the Subject column. Below is the  screenshot that show both the syntax and the result.
+
+ ![](id&sub_constraint.jpg)
+
+
 
 
