@@ -87,9 +87,11 @@ In order for me to drop the age column from the Student Info table i initiated t
 ### Task 3
 
 - What is the total number of employees in our employee table??
-- Find out the top 5 cities with the highest number of    employees, then filter the result to show cities with more than 15 employees.
+- Find out the top 5 cities with the highest number of employees, then filter the result to show cities with more than 15 employees.
 - Find out the most used pin code by the employee. In this case, we want to know the pin codes that is used the most.  
 
 1. To know the total number of employee in the employee table i used the count statement to count all the rows in the table since each employee ID is unique. 
 
-   ![](1990.jpg)
+   ![](Totall.jpg)
+
+2. 
